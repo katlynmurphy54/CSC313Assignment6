@@ -1,0 +1,74 @@
+main {
+    height: 185%;
+    width: 80%;
+    background-color: chartreuse;
+    float: right;
+    /* margin-left: 10px; */
+}
+
+nav{
+    width: 20%;
+    float: left;
+    height: 185%;
+    background-color: azure;
+}
+
+body{
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    background-color: forestgreen;
+    text-align: center;
+    color: white;
+    clear: both;
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+    background-color: maroon;
+    text-align: center;
+    color: white;
+    clear: both;
+}
+
+/* define table properties */
+table, th, td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
+th{
+    text-align: center;
+}
+td{
+    padding-left: 4px;
+}
+
+footer{
+    padding-top: 15px;
+    font-size: .60em;
+    font-style: oblique;
+}
+
+header{
+    height: 15%;
+}
+
+/* ids and classes are custom selectors so you can apply CSS to tags without affecting every tag of that type */
+
+
+/* classes are for formatting you want to apply multiple places */
+.title {
+    font-family: cursive;
+}
+
+/* ids are unique and can only be applied once on a web page */
+#para {
+    font-size: 14pt;
+    text-align: center;
+}
